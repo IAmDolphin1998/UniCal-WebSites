@@ -1,0 +1,16 @@
+{
+  "name": "unipaper-websites",
+  "version": "1.0.0",
+  "description": "UniPaper NPM Packages",
+  "main": "gulpfile.js",
+  "author": "Giuseppe Defina",
+  "type": "module",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  },
+  "dependencies": {
+    "gulp-debug": "^5.0.1",
+    "gulp-foreach": "^0.1.0",
+    "gulp-msbuild": "^0.11.0"
+  }
+}
