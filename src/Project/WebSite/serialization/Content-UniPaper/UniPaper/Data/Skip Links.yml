@@ -1,0 +1,31 @@
+﻿---
+ID: "dd912dde-51ee-4c65-b99c-d49837f0737f"
+Parent: "33d8e98e-754b-4e7c-90a9-6c182c2ba9bc"
+Template: "1dc97094-8357-4335-8df5-3349193b1e02"
+Path: /sitecore/content/UniCal/UniPaper/Data/Skip Links
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T100354Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a8bac15-51d8-4f9a-9e39-5bbc7769e496"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240706T100354Z

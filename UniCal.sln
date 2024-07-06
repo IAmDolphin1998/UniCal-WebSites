@@ -5,9 +5,13 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{56828875-F479-4921-8B65-B29A3B57AC58}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 		gulp-config.js = gulp-config.js
 		gulpfile.js = gulpfile.js
 		package.json = package.json
+		README.md = README.md
+		sitecore.json = sitecore.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{1BC724DF-5B61-471E-A9FC-CF36F9568D35}"
@@ -16,9 +20,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{C674C2A1-15EA-4BF2-9C2B-30456EC5ADC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSite", "WebSite", "{BC755F53-4DFA-4E2B-B4E2-7D07B44EEE9B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\WebSite\UniCal.Project.WebSite.module.json = src\Project\WebSite\UniCal.Project.WebSite.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniCal.Project.WebSite", "src\Project\WebSite\code\UniCal.Project.WebSite.csproj", "{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC755F53-4DFA-4E2B-B4E2-7D07B44EEE9B} = {C674C2A1-15EA-4BF2-9C2B-30456EC5ADC7}
+		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0} = {BC755F53-4DFA-4E2B-B4E2-7D07B44EEE9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FBE1DF9-1994-4B5E-823F-65807D754AF1}

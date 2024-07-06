@@ -1,0 +1,44 @@
+{
+  "namespace": "UniCal.Project.WebSite",
+  "references": [ "*.Feature.*" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-UniPaper",
+        "path": "/sitecore/content/UniCal/UniPaper",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Forms-UniPaper",
+        "path": "/sitecore/Forms/UniCal/UniPaper",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-UniPaper",
+        "path": "/sitecore/media library/Project/UniCal/UniPaper",
+        "scope": "singleItem",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-Themes-UniPaper",
+        "path": "/sitecore/media library/Themes/UniCal/UniPaper",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Templates-Branches-UniCal",
+        "path": "/sitecore/templates/Branches/Project/UniCal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Templates-UniCal",
+        "path": "/sitecore/templates/Project/UniCal",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+﻿---
+ID: "00112f07-ff40-437a-bfe8-7d853d1cee4f"
+Parent: "0f4c3f56-45f0-409f-a8ab-f72f4d69e316"
+Template: "0ec192ee-5faa-494e-ba9f-e6a2b1926d53"
+Path: /sitecore/content/UniCal/UniPaper/Presentation/Page Designs/Default
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{CD5757E3-EE28-4ACD-B8AD-76B70F0AF99D}|{3C93F327-C052-46FC-B01F-2CC65A7B733E}"
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T100452Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cba6bbbe-cbd9-45b6-8892-6047cf58bc39"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240706T100453Z
