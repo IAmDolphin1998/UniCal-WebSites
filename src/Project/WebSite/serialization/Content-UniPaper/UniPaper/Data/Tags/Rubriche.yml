@@ -1,0 +1,24 @@
+﻿---
+ID: "9ba91ef7-5a02-4f7b-b2b7-7a5ba8c20346"
+Parent: "3faa25d0-40a7-4b95-bc44-816fde7a8500"
+Template: "25a6b824-672f-4c15-9b98-0b231c80f81c"
+Path: /sitecore/content/UniCal/UniPaper/Data/Tags/Rubriche
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T144805Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f8d82c8-4607-45d7-91cc-b57c97aa9daf"

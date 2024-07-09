@@ -1,0 +1,16 @@
+﻿---
+ID: "6ba894ca-49b6-4333-87ac-38666b5e228b"
+Parent: "e2d8fa46-4d2a-4318-acb9-21eaf6a1fedc"
+Template: "e1d57479-7573-4c49-919b-16053f5414ca"
+Path: /sitecore/content/UniCal/UniPaper/Data/Documents/Article
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T141924Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c007f555-a81d-43bf-8e9d-c2709c59d3ac"

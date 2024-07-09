@@ -1,0 +1,27 @@
+﻿---
+ID: "65007867-6ecd-42b8-bd3f-791ce2f37421"
+Parent: "fe89e58d-3d3f-4bd8-93b0-b0d3fcc3b2db"
+Template: "b3436332-9878-47ba-bd89-4eee506e6efb"
+Path: /sitecore/content/UniCal/UniPaper/Home/Aree/Amministrativo
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T144501Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Amministrativo
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1556b568-c73d-4c33-b914-385dded88aa4"

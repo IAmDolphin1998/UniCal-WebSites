@@ -16,7 +16,16 @@
     "removeOrphansForRoles": true,
     "removeOrphansForUsers": true,
     "continueOnItemFailure": false,
-    "excludedFields": []
+    "excludedFields": [
+      {
+        "fieldId": "{BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}",
+        "description": "__Updated by"
+      },
+      {
+        "fieldId": "{D9CF14B1-FA16-4BA6-9288-E8A174D4D522}",
+        "description": "__Updated"
+      }
+    ]
   },
   "settings": {
     "telemetryEnabled": true,

@@ -7,7 +7,14 @@
         "name": "Content-UniPaper",
         "path": "/sitecore/content/UniCal/UniPaper",
         "scope": "ItemAndDescendants",
-        "allowedPushOperations": "createUpdateAndDelete"
+        "allowedPushOperations": "createUpdateAndDelete",
+        "rules": [
+          {
+            "path": "/Data/Documents",
+            "scope": "ItemAndChildren",
+            "allowedPushOperations": "createUpdateAndDelete"
+          }
+        ]
       },
       {
         "name": "Forms-UniPaper",

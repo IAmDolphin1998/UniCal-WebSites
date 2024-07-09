@@ -1,0 +1,28 @@
+﻿---
+ID: "232863ba-db64-4886-b4ad-fcca51bb771f"
+Parent: "2400cabf-aa78-4f25-a3a7-3792e5e0dd7e"
+Template: "ee087bfe-db16-40e1-8ecf-c31992f608a3"
+Path: /sitecore/content/UniCal/UniPaper/Presentation/Partial Designs/Footer
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T142058Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea36f185-7202-4899-9bde-927edf840563"

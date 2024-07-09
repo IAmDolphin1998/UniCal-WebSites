@@ -1,0 +1,16 @@
+﻿---
+ID: "c20ebed8-081b-46e7-b976-9e9d8e9fdab4"
+Parent: "e2d8fa46-4d2a-4318-acb9-21eaf6a1fedc"
+Template: "d333b22b-aa8f-434f-beae-1bee499f78ac"
+Path: /sitecore/content/UniCal/UniPaper/Data/Documents/Autori
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T151341Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a8156723-06bd-4332-ba2e-79e5b24185dc"

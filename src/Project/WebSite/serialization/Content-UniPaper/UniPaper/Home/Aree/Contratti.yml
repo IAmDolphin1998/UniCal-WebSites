@@ -1,0 +1,27 @@
+﻿---
+ID: "29195624-c8ad-4104-9552-0f6cc0e73377"
+Parent: "fe89e58d-3d3f-4bd8-93b0-b0d3fcc3b2db"
+Template: "b3436332-9878-47ba-bd89-4eee506e6efb"
+Path: /sitecore/content/UniCal/UniPaper/Home/Aree/Contratti
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T144514Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contratti
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e50dfe1-4c73-4ce1-98ad-65ca3d1b1761"

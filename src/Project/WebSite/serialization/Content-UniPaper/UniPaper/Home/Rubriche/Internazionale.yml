@@ -1,0 +1,27 @@
+﻿---
+ID: "1faf6f95-c87d-4f81-aad7-1e801111dd4b"
+Parent: "4a5d6752-3fa4-4d0f-b807-b3740ff4c30a"
+Template: "b3436332-9878-47ba-bd89-4eee506e6efb"
+Path: /sitecore/content/UniCal/UniPaper/Home/Rubriche/Internazionale
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T144845Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Internazionale
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f9c8635-d8bc-4ba1-91e5-438a012e16c5"

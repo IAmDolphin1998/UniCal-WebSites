@@ -1,0 +1,16 @@
+﻿---
+ID: "cf88b6b9-7afb-4fda-a8be-989753678af1"
+Parent: "e2d8fa46-4d2a-4318-acb9-21eaf6a1fedc"
+Template: "7cff52d8-22d0-4132-b060-336d18ebe570"
+Path: /sitecore/content/UniCal/UniPaper/Data/Documents/News
+Languages:
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240706T141918Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef98f4bf-8eef-4059-89fe-3ff5c88584bb"

@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # UniCal code
 .sitecore/
+.scindex

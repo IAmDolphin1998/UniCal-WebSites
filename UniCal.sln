@@ -26,6 +26,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSite", "WebSite", "{BC75
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniCal.Project.WebSite", "src\Project\WebSite\code\UniCal.Project.WebSite.csproj", "{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3870AA4C-890C-4AC4-B558-662F3355E318} = {3870AA4C-890C-4AC4-B558-662F3355E318}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{012646E9-8291-4A0B-8AA3-CEC2424845F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniCal.Foundation.Search", "src\Foundation\Search\code\UniCal.Foundation.Search.csproj", "{4E14858A-EDB0-461F-8A5B-1CB913E482C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composites", "Composites", "{893F9936-1249-4722-A4A6-3A2F39A3E807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniCal.Feature.Composites", "src\Feature\Composites\code\UniCal.Feature.Composites.csproj", "{3870AA4C-890C-4AC4-B558-662F3355E318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +48,14 @@ Global
 		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E14858A-EDB0-461F-8A5B-1CB913E482C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E14858A-EDB0-461F-8A5B-1CB913E482C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E14858A-EDB0-461F-8A5B-1CB913E482C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E14858A-EDB0-461F-8A5B-1CB913E482C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3870AA4C-890C-4AC4-B558-662F3355E318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3870AA4C-890C-4AC4-B558-662F3355E318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3870AA4C-890C-4AC4-B558-662F3355E318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3870AA4C-890C-4AC4-B558-662F3355E318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +63,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BC755F53-4DFA-4E2B-B4E2-7D07B44EEE9B} = {C674C2A1-15EA-4BF2-9C2B-30456EC5ADC7}
 		{B1B521DF-B593-4E57-ACCF-13DD142C9FF0} = {BC755F53-4DFA-4E2B-B4E2-7D07B44EEE9B}
+		{012646E9-8291-4A0B-8AA3-CEC2424845F1} = {ECF51395-6DDB-4368-87C0-D3BBAC099A0C}
+		{4E14858A-EDB0-461F-8A5B-1CB913E482C1} = {012646E9-8291-4A0B-8AA3-CEC2424845F1}
+		{893F9936-1249-4722-A4A6-3A2F39A3E807} = {1BC724DF-5B61-471E-A9FC-CF36F9568D35}
+		{3870AA4C-890C-4AC4-B558-662F3355E318} = {893F9936-1249-4722-A4A6-3A2F39A3E807}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FBE1DF9-1994-4B5E-823F-65807D754AF1}
