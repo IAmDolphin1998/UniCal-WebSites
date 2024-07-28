@@ -1,4 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\packages\Scriban.5.7.0\build\Scriban.props" Condition="Exists('..\..\..\..\packages\Scriban.5.7.0\build\Scriban.props')" />
   <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4E14858A-EDB0-461F-8A5B-1CB913E482C1}</ProjectGuid>
+    <ProjectGuid>{B1B521DF-B593-4E57-ACCF-13DD142C9FF0}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UniCal.Foundation.Search</RootNamespace>
-    <AssemblyName>UniCal.Foundation.Search</AssemblyName>
+    <RootNamespace>UniCal.Project.WebSite</RootNamespace>
+    <AssemblyName>UniCal.Project.WebSite</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -52,22 +53,19 @@
     <Reference Include="GraphQL-Parser, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\GraphQL-Parser.3.0.0\lib\net45\GraphQL-Parser.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.Extensions.DependencyInjection.7.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.7.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives" />
-    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net, Version=2.4.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\protobuf-net.2.4.6\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Scriban, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Scriban.5.7.0\lib\netstandard2.0\Scriban.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Annotations, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Annotations.10.4.0\lib\net471\Sitecore.Annotations.dll</HintPath>
@@ -192,6 +190,9 @@
     <Reference Include="Sitecore.Web, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Web.10.4.0\lib\net48\Sitecore.Web.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XA.Feature.Search, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Feature.Search.10.4.0\lib\net48\Sitecore.XA.Feature.Search.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XA.Foundation.Abstractions, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Abstractions.10.4.0\lib\net48\Sitecore.XA.Foundation.Abstractions.dll</HintPath>
     </Reference>
@@ -201,14 +202,23 @@
     <Reference Include="Sitecore.XA.Foundation.Common, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Common.10.4.0\lib\net48\Sitecore.XA.Foundation.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XA.Foundation.DynamicPlaceholders, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.DynamicPlaceholders.10.4.0\lib\net48\Sitecore.XA.Foundation.DynamicPlaceholders.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XA.Foundation.Editing, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Editing.10.4.0\lib\net48\Sitecore.XA.Foundation.Editing.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Geospatial, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Geospatial.10.4.0\lib\net48\Sitecore.XA.Foundation.Geospatial.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XA.Foundation.Grid, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Grid.10.4.0\lib\net48\Sitecore.XA.Foundation.Grid.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XA.Foundation.Horizon, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Horizon.10.4.0\lib\net48\Sitecore.XA.Foundation.Horizon.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.XA.Foundation.IOC, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.IOC.10.4.0\lib\net48\Sitecore.XA.Foundation.IOC.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.LocalDatasources, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.LocalDatasources.10.4.0\lib\net48\Sitecore.XA.Foundation.LocalDatasources.dll</HintPath>
@@ -222,14 +232,23 @@
     <Reference Include="Sitecore.XA.Foundation.Multisite, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Multisite.10.4.0\lib\net48\Sitecore.XA.Foundation.Multisite.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XA.Foundation.Mvc, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Mvc.10.4.0\lib\net48\Sitecore.XA.Foundation.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XA.Foundation.PlaceholderSettings, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.PlaceholderSettings.10.4.0\lib\net48\Sitecore.XA.Foundation.PlaceholderSettings.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Presentation, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Presentation.10.4.0\lib\net48\Sitecore.XA.Foundation.Presentation.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XA.Foundation.RenderingVariants, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.RenderingVariants.10.4.0\lib\net48\Sitecore.XA.Foundation.RenderingVariants.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XA.Foundation.Scaffolding, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Scaffolding.10.4.0\lib\net48\Sitecore.XA.Foundation.Scaffolding.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.XA.Foundation.Scriban, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Scriban.10.4.0\lib\net48\Sitecore.XA.Foundation.Scriban.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Search, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Search.10.4.0\lib\net48\Sitecore.XA.Foundation.Search.dll</HintPath>
@@ -245,6 +264,9 @@
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.TokenResolution, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.TokenResolution.10.4.0\lib\net48\Sitecore.XA.Foundation.TokenResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.XA.Foundation.Variants.Abstractions, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Variants.Abstractions.10.4.0\lib\net48\Sitecore.XA.Foundation.Variants.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="sysglobl" />
     <Reference Include="System.AppContext" />
@@ -287,29 +309,29 @@
     <Reference Include="System.Reflection" />
     <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.Caching" />
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Extensions" />
     <Reference Include="System.Runtime.InteropServices" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
-    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms" />
     <Reference Include="System.Security.Cryptography.Encoding" />
     <Reference Include="System.Security.Cryptography.Primitives" />
     <Reference Include="System.Security.Cryptography.X509Certificates" />
-    <Reference Include="System.Security.Cryptography.Xml, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Security.Cryptography.Xml.4.5.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    <Reference Include="System.Security.Cryptography.Xml, Version=6.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Security.Cryptography.Xml.6.0.1\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Security.Principal.Windows.4.5.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Web" />
@@ -333,6 +355,24 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
@@ -351,25 +391,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\UniCal\Foundation\Search\UniPaper.Solr.IndexConfiguration.config" />
-    <Content Include="App_Config\Include\UniCal\Foundation\Search\UniPaper.Solr.IndexMaster.config" />
-    <Content Include="App_Config\Include\UniCal\Foundation\Search\UniPaper.Solr.IndexWeb.config" />
-    <Content Include="App_Config\Include\UniCal\Foundation\Search\UniPaper.Foundation.Pipelines.config" />
-    <Content Include="App_Config\Include\UniCal\Foundation\Search\UniPaper.Foundation.Configurators.config" />
+    <Content Include="UniCal\UniPaper\Views\PrimoPiano\PrimoPiano.cshtml" />
+    <Content Include="UniCal\UniPaper\Views\Web.config" />
+    <Content Include="UniCal\UniPaper\Views\SxaLayout\Bootstrap5Body.cshtml" />
+    <Content Include="App_Config\ConnectionStrings.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\DocumentModel.cs" />
-    <Compile Include="Pipelines\CustomResolveBoostingQuery\ResolveBoostingQueryEventArgs.cs" />
-    <Compile Include="Pipelines\CustomResolveBoostingQuery\ResolveBoostingQueryProcessor.cs" />
-    <Compile Include="Pipelines\CustomResolveBoostingQuery\ResolveFieldAndQueryMatchRule.cs" />
-    <Compile Include="Pipelines\CustomResolveBoostingQuery\ResolveFieldContainsCurrentPageFieldRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegisterDependencies.cs" />
-    <Compile Include="Services\CustomBoostingService.cs" />
-    <Compile Include="Services\ICustomBoostingService.cs" />
-    <Compile Include="Services\ICustomSearchService.cs" />
-    <Compile Include="Services\CustomSearchService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -380,7 +409,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Feature\Search\code\UniCal.Feature.Search.csproj">
+      <Project>{68d7c8ed-c8a8-4483-a4e6-4b41a03f85ed}</Project>
+      <Name>UniCal.Feature.Search</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Search\code\UniCal.Foundation.Search.csproj">
+      <Project>{4e14858a-edb0-461f-8a5b-1cb913e482c1}</Project>
+      <Name>UniCal.Foundation.Search</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -394,9 +432,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49712</DevelopmentServerPort>
+          <DevelopmentServerPort>51381</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49712/</IISUrl>
+          <IISUrl>http://localhost:51381/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -411,7 +449,10 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Scriban.5.7.0\build\Scriban.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Scriban.5.7.0\build\Scriban.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Scriban.5.7.0\build\Scriban.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Scriban.5.7.0\build\Scriban.targets'))" />
   </Target>
+  <Import Project="..\..\..\..\packages\Scriban.5.7.0\build\Scriban.targets" Condition="Exists('..\..\..\..\packages\Scriban.5.7.0\build\Scriban.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -1,0 +1,40 @@
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@using UniCal.Feature.Search.Models
+
+@model PrimoPianoRenderingModel
+
+@{
+    string variantClass = string.Empty;
+    if (Model.Attributes.ContainsKey("class"))
+    {
+        variantClass = Model.Attributes["class"].Aggregate();
+    }
+}
+
+<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "primopiano-results", Model.Attributes) data-class-variant="@variantClass">
+    @if (!Model.Documents.Any())
+    {
+        <div class="component-content">
+            @Model.MessageIsEmpty
+            <div class="no-results">
+                @Html.Sxa().Field("ResultsNotFoundText", Model.DataSourceItem, !Model.IsControlEditable)
+                @Html.Sxa().Field("Text", Model.Item, !Model.IsControlEditable)
+            </div>
+            <div class="progress"></div>
+        </div>
+    }
+    else
+    {
+        <ul class="search-result-list">
+            <li>
+                @foreach (BaseVariantField variantField in Model.VariantFields)
+                {
+                    @Html.RenderingVariants().RenderVariant(variantField, Model.PageItem, false, Model)
+                }
+            </li>
+        </ul>
+    }
+</div>

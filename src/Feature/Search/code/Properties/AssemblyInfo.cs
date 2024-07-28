@@ -1,15 +1,14 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UniCal.Feature.Composites")]
+[assembly: AssemblyTitle("UniCal.Feature.Search")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("UniCal.Feature.Composites")]
+[assembly: AssemblyProduct("UniCal.Feature.Search")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3870aa4c-890c-4ac4-b558-662f3355e318")]
+[assembly: Guid("68d7c8ed-c8a8-4483-a4e6-4b41a03f85ed")]
 
 // Version information for an assembly consists of the following four values:
 //
